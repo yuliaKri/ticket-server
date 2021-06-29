@@ -1,4 +1,4 @@
-// FairPro base version
+// ticket base version
 
 ## Initial setup
 
@@ -10,7 +10,7 @@ We must use STAGE env for develop and testing.
 #### Create`.env` file in the root
 
 ```$xslt
-MONGO_CONNECTION_STRING=mongodb://localhost:27017/fairPro
+MONGO_CONNECTION_STRING=mongodb://localhost:27017/ticket
 
 JWT_KEY=jwtSecretKey
 JWT_EXPIRES_IN=10d
@@ -50,7 +50,7 @@ you get response 'Status 200' your server is active and working fine.
 
 #### Step 1 - clone the project
 
-1. Follow https://github.com/bogutski/...
+1. Follow https://github.com/yuliaKri/...
 2. Click on `Clone or download` button and copy **the path**.
 3. Open your WebStorm and close current project.
 4. Click on `Check out from Version Control`.
